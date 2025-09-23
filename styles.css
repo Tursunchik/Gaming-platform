@@ -151,14 +151,13 @@ header nav ul li.active a {
   display: block;
   transition: all 500ms ease;
 }
-
-.trending .see-all:hover {
-  transform: scale(1.1);
-}
-
 .trending .games {
   display: flex;
   justify-content: space-between;
   width: 100%;
   padding: 50px 0;
+}
+
+.trending .see-all:hover {
+  transform: scale(1.1);
 }
